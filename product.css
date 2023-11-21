@@ -1,0 +1,48 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.w-100{
+    width: 350px;
+    position: absolute;
+}
+.avantajli{
+    width: 80px;
+    position:relative;
+    top: 80px;
+    left: auto;
+    
+}
+ .cargo{
+    position: relative;
+    display: flex;
+    top: 6px;
+    background-color: #535353;
+    color: white;
+    
+    border-radius: 8px;
+  
+    font-size: 12px;
+} 
+  .fa-box{
+    margin: 10px;
+    font-size: 16px;
+}
+.fa-heart{
+    position: relative;
+    width: 16px;
+    left: auto;
+    top: 32px;
+    
+}
+
+
+.fa-heart:hover{
+    color: red;
+} 
+
+.v{
+    display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+} 
+  

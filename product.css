@@ -1,61 +1,72 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.w-100 {
-  width: 350px;
-  position: relative;
-}
-.avantajli {
-  width: 80px;
-  position: absolute;
-  top: 10%;
-  
-}
-.cargo {
-  position: absolute;
-  display: flex;
-  top: auto;
-  align-items: center;
-  background-color: #535353;
-  color: white;
-  border-radius: 8px;
-  width: 100px;
-  font-size: 12px;
-}
-.fa-box {
-  margin: 10px;
-  font-size: 16px;
-}
-.fa-heart {
-  position: absolute;
-  width: 16px;
-  top: auto;
-  left: auto;
-}
-
-.fa-heart:hover {
-  color: red;
-}
-
 .container {
-  display: grid;
-  row-gap: 120px;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-.head {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 10px;
+.product-box {
+  position: relative;
+  width: 200px;
+  height: 450px;
+  border: 1px solid #bcbcbc;
+  padding: 5px;
+  border-radius: 10px;
 }
-div > button {
-  cursor: pointer;
+.product-box>p{
+  margin: 3px;
+}
+.product-img {
+  width: 100%;
+}
+.w-100{
   position: absolute;
-  top: 50%;
-  left: auto;
-  padding: 10px;
-  width: 100px;
-  border-radius: 6px;
-  border: none;
-  background-color: #850202;
-  color: white;
+  width:70px;
+  top: 2%;
+  left: 2%;
+}
+.product-box > i {
+  position: absolute;
+  top: 15px;
+  right: 8%;
+  border: 1px solid #bcbcbc;
+  padding: 5px;
+  border-radius:50% ;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.product-box > i:hover{
+  color: rgb(194, 117, 2);
+}
+.star{
+  color: goldenrod;
+  font-size: 12px;
+  margin-left: 3px;
+}
+.campaing{
+  color: rgb(126, 2, 2);
+  font-size: 12px;
+  font-weight: 700;
+}
+.price{
+  color: rgb(126, 2, 2);
+  font-size: 14px;
+  font-weight: 700;
+}
+.product-box>a{
+  text-decoration: none;
+  padding: 4px 5px;
+  border: 1px solid rgb(0, 128, 49);
+  border-radius: 8px;
+  background-color:rgb(0, 128, 49, 0.2) ;
+  color: black;
   font-weight: 600;
+  font-size: 16px;
+  position: absolute;
+  bottom:2%;
+  right: 2%;
+
 }
